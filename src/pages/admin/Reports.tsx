@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { 
   DropdownMenu, 
@@ -49,7 +50,7 @@ import {
   TabsList, 
   TabsTrigger 
 } from "@/components/ui/tabs";
-import { Activity, Archive, BarChart3, CalendarDays, Check, ChevronDown, ClipboardList, Download, Eye, File, FileCheck, Filter, MapPin, MoreHorizontal, Search, Star, Trash2, User, Virus, X } from "lucide-react";
+import { Activity, AlertCircle, Archive, BarChart3, CalendarDays, Check, ChevronDown, ClipboardList, Download, Eye, File, FileCheck, Filter, MapPin, MoreHorizontal, Search, Star, Trash2, User } from "lucide-react";
 import { 
   AreaChart, 
   Area, 
