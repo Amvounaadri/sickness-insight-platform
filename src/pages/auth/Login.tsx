@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -14,7 +13,7 @@ import {
   FormMessage
 } from "@/components/ui/form";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Virus } from "lucide-react";
+import { Activity } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -63,7 +62,7 @@ const Login = () => {
     <div className="space-y-6 py-4">
       <div className="flex flex-col items-center space-y-2 text-center">
         <div className="flex items-center space-x-2">
-          <Virus className="h-6 w-6 text-primary" />
+          <Activity className="h-6 w-6 text-primary" />
           <h1 className="text-2xl font-bold">SRRS</h1>
         </div>
         <h2 className="text-xl font-semibold">Welcome back</h2>

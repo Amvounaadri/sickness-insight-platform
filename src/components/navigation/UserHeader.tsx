@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { 
   Bell, 
+  Settings,
   User 
 } from "lucide-react";
 import { 

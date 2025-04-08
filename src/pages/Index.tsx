@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { ArrowRight, BarChart3, FileText, MapPin, Shield, Virus } from "lucide-react";
+import { ArrowRight, Activity, BarChart3, FileText, MapPin, Shield, Virus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -34,7 +33,7 @@ const Index = () => {
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center px-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-2">
-            <Virus className="h-6 w-6 text-primary" />
+            <Activity className="h-6 w-6 text-primary" />
             <span className="text-lg font-semibold">SRRS</span>
           </div>
           <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -55,7 +54,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="flex items-center justify-center space-x-2 text-primary">
-              <Virus className="h-8 w-8" />
+              <Activity className="h-8 w-8" />
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Sickness Recording & Reporting System
               </h1>
@@ -219,7 +218,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
             <div className="flex items-center space-x-2">
-              <Virus className="h-5 w-5 text-primary" />
+              <Activity className="h-5 w-5 text-primary" />
               <p className="text-sm text-muted-foreground">
                 © 2025 SRRS. All rights reserved.
               </p>

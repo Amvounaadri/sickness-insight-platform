@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   Card, 
@@ -18,7 +17,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Activity, AlertCircle, FileCheck, Users, BarChart3, Calendar, ExternalLink, RefreshCw, Virus } from "lucide-react";
+import { Activity, AlertCircle, FileCheck, Users, BarChart3, Calendar, ExternalLink, RefreshCw } from "lucide-react";
 import { 
   AreaChart, 
   Area, 

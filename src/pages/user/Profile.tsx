@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { 
@@ -28,7 +27,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { CalendarDays, FileCheck, MapPin, Phone, User } from "lucide-react";
+import { CalendarDays, FileCheck, MapPin, Phone, User, Activity } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -389,7 +388,7 @@ const Profile = () => {
                   <div key={report.id} className="flex flex-col sm:flex-row justify-between p-4 border rounded-lg">
                     <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                       <div className="rounded-full bg-primary/10 p-3 flex-shrink-0">
-                        <Virus className="h-4 w-4 text-primary" />
+                        <Activity className="h-4 w-4 text-primary" />
                       </div>
                       <div>
                         <p className="font-medium">{report.type}</p>

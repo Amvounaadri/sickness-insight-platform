@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { 
   BarChart3, 
@@ -6,7 +5,7 @@ import {
   Home, 
   Settings, 
   User, 
-  Virus 
+  Activity 
 } from "lucide-react";
 import { 
   Sidebar, 
@@ -49,7 +48,7 @@ export function UserSidebar() {
   return (
     <Sidebar>
       <SidebarHeader className="flex items-center gap-2 py-4">
-        <Virus className="h-6 w-6 text-primary" />
+        <Activity className="h-6 w-6 text-primary" />
         <span className="text-lg font-semibold">SRRS</span>
         <span className="text-xs px-1.5 py-0.5 ml-auto bg-primary/10 text-primary rounded-md">User</span>
         <SidebarTrigger className="ml-auto md:hidden" />

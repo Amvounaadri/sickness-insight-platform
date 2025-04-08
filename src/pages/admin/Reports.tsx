@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   DropdownMenu, 
@@ -50,7 +49,7 @@ import {
   TabsList, 
   TabsTrigger 
 } from "@/components/ui/tabs";
-import { AlertCircle, Archive, BarChart3, CalendarDays, Check, ChevronDown, ClipboardList, Download, Eye, File, FileCheck, Filter, MapPin, MoreHorizontal, Search, Star, Trash2, User, Virus, X } from "lucide-react";
+import { Activity, Archive, BarChart3, CalendarDays, Check, ChevronDown, ClipboardList, Download, Eye, File, FileCheck, Filter, MapPin, MoreHorizontal, Search, Star, Trash2, User, Virus, X } from "lucide-react";
 import { 
   AreaChart, 
   Area, 
@@ -497,7 +496,7 @@ const AdminReports = () => {
                           <TableCell className="font-medium">
                             <div className="flex items-center gap-2">
                               <div className="rounded-full bg-primary/10 p-2">
-                                <Virus className="h-4 w-4 text-primary" />
+                                <Activity className="h-4 w-4 text-primary" />
                               </div>
                               <span>{report.type}</span>
                             </div>
@@ -604,7 +603,7 @@ const AdminReports = () => {
             <DialogContent className="max-w-3xl">
               <DialogHeader>
                 <DialogTitle className="flex items-center gap-2">
-                  <Virus className="h-5 w-5 text-primary" />
+                  <Activity className="h-5 w-5 text-primary" />
                   Report Details
                 </DialogTitle>
                 <DialogDescription>
